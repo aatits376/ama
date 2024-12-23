@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- set the encoding of your site -->
+  <meta charset="utf-8">
+  <!-- set the viewport width and initial-scale on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aama Gai Firm</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Dharmu Bhusal">
+  <meta name="description" content="Aama Gai Farm, located in Devchuli-7 Rambas, Nawalpur, Nepal, is a local cow farm and dairy product provider offering a variety of fresh and organic dairy products. Proprietor: Salik Bhusal.">
+  <meta name="keywords" content="Aama Gai Farm, Salik Bhusal, Devchuli-7 Rambas, Nawalpur, Nepal, dairy products, cow farm, organic dairy, fresh milk, cheese, yogurt, butter, local farm, dairy provider">
+  <meta property="og:title" content="Aama Gai Farm - Fresh and Organic Dairy Products from Nepal">
+  <meta property="og:description" content="Discover a variety of fresh and organic dairy products from Aama Gai Farm, located in Devchuli-7 Rambas, Nawalpur, Nepal. Proprietor: Salik Bhusal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aamagaifirm.com.np/">
+  <meta property="og:image" content="https://aamagaifirm.com.np/images/logo.png">
+  <meta property="og:site_name" content="Aama Gai Farm">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aama Gai Farm - Fresh and Organic Dairy Products from Nepal">
+  <meta name="twitter:description" content="Explore a range of fresh and organic dairy products from Aama Gai Farm, located in Devchuli-7 Rambas, Nawalpur, Nepal. Proprietor: Salik Bhusal.">
+  <meta name="twitter:image" content="https://aamagaifirm.com.np/images/logo.png">
+  <meta name="twitter:site" content="@AamaGaiFarm">
+  <meta name="twitter:creator" content="@DharmuBhusal">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="7 days">
+  <meta name="rating" content="general">
+  <meta name="distribution" content="global">
+  <meta name="language" content="English">
+  <meta name="geo.region" content="NP">
+  <meta name="geo.placename" content="Devchuli-7 Rambas, Nawalpur, Nepal">
+  <meta name="geo.position" content="27.6922;84.2734">
+  <meta name="ICBM" content="27.6922, 84.2734">
+  <link rel="canonical" href="https://aamagaifirm.com.np/">
+
+
+  <!-- include the site animate stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,300" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- Page Loader -->
+  <div id="pre-loader" class="loader-container">
+    <div class="loader">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- main container of all the page elements -->
+  <div id="wrapper">
+    <!-- mt bluesky -->
+    <div id="mt-bluesky"></div>
+    <!-- Page Loader -->
+    <div id="mt-sun"></div>
+    <!-- mt sun -->
+    <div id="mt-sun2"></div>
+    <!-- mt cloud -->
+    <div id="mt-cloud"></div>
+    <!-- mt base -->
+    <div id="mt-base"></div>
+    <!-- base overlay -->
+    <div id="base-overlay"></div>
+    <!-- night -->
+    <div id="night"></div>
+    <!-- stars -->
+    <div id="stars"></div>
+    <!-- sstar -->
+    <div id="sstar"></div>
+    <!-- moon -->
+    <div id="moon"></div>
+    <!-- hock -->
+    <div id="hock"></div>
+    <!-- title -->
+    <span id="title"><span>404</span></span>
+    <!-- oh -->
+    <span id="oh">oh no</span>
+    <!-- txt -->
+    <div class="txt">
+      <p>We're sorry, but something went wrong.</p>
+      <a href="#" class="btn">Go Home</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/jquery.color.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('#mt-sun').animate({ 'top': '96%', 'opacity': 0.4 }, 12000, function() {
+        $('#stars').animate({ 'opacity': 1 }, 5000, function() {
+          $('#moon').animate({ 'top': '10%', 'opacity': 1 }, 6000, function() {
+            $('#hock').animate({ 'bottom': '190px', 'opacity': 1 }, 3000, function() {
+              $('#hock').animate({ 'bottom': '49%' }, 2000);
+              $('#title').animate({ 'top': '44%', 'opacity': 1 }, 2000);
+              $('#sstar').animate({ 'opacity': 0.8 }, 300);
+              $('#sstar').animate({
+                'backgroundPosition': '0px 0px',
+                'top': '15%',
+                'opacity': 0
+              }, 300, function() {
+                $('#ground-overlay').animate({ 'opacity': 1 }, 1500);
+                $('#title').animate({ 'top': '53%', 'opacity': 1 }, 2000, function() {
+                  $('#oh').animate({ 'opacity': 1 }, 1000);
+                  $('.txt').animate({ 'opacity': 1 }, 1000);
+                });
+              });
+            });
+          });
+        });
+      });
+      $('#mt-sun').animate({ 'top': '96%', 'opacity': 0.8 }, 12000);
+      $('#mt-bluesky').animate({ 'backgroundColor': '#4F0030' }, 18000);
+      $('#mt-cloud').animate({ 'backgroundPosition': '1000px 0px', 'opacity': 0 }, 30000);
+      $('#night').animate({ 'opacity': 0.8 }, 20000);
+      $('html').animate({ 'backgroundColor': '#1c2401' }, 20000);
+    });
+  </script>
+
+</body>
+
+</html>
